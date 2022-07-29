@@ -1,0 +1,95 @@
+/*  COLORS
+    #fcedb3 : marked text background
+    #f5c73f : button and indent(pseudo element) background
+    #764dd4 : Main background
+    #f2e9fe : Container background
+    #473478 : Title background
+    #ccbccb : dark text color
+    */
+
+.container {
+  background-color: rgb(243, 233, 254);
+  width: 80%;
+  margin: auto;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 30px;
+  font-size: 19px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  color: #473478;
+}
+
+.logo {
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  margin-bottom: 2rem;
+}
+
+.main {
+  background-color: rgb(118, 77, 212);
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.marked-text {
+  background-color: #fcedb3;
+  color: black;
+}
+
+.dark {
+  color: #ccbccb;
+}
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  padding-left: 10px;
+}
+
+.wrapper::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  background-color: #f5c73f;
+  width: 5px;
+  height: 100%;
+}
+
+p.indent {
+  text-indent: 1rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 0.1rem;
+}
+
+.btn {
+  background-color: #f5c73f;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.copyright {
+  color: black;
+}
